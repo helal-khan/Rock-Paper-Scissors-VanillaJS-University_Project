@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var menuSound=new Audio();
+		menuSound.src="game.mp3";
+		var menuMove=new Audio();
+		menuMove.src="turn.mp3"; 
+		var optionDown=new Audio();
+		optionDown.src="eat.mp3";
+	</script>
+</head>
+<body onload="menuSound.play();">
+<h1>Felling Happy</h1>
+	<button  onmousedown="optionDown.play();" onmouseover="menuMove.play();">Paper</button>
+</body>
+</html>

@@ -1,0 +1,278 @@
+@font-face {
+    font-family: titleFont;
+    src: url(Font/knuckle_down.ttf);
+}
+@font-face {
+    font-family: allFont;
+    src: url(Font/bankgothic-regular.ttf);
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+
+#wrapper {
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	left: 25%;
+	top: 7%;
+	
+}
+.canvas {
+	width: 780px;
+	height: 590px;
+	margin: 0 auto;
+	position: absolute;
+	z-index:5;
+	text-align: center;
+	
+	background-color: #b0b774;
+	
+	box-shadow: 0 4px 8px black;
+	-moz-box-shadow: 0 2px 8px black;
+	-webkit-box-shadow: 0 2px 8px black;
+}
+#Sound{
+	margin-left: -850px;
+	margin-top: -272px;
+	cursor:pointer;
+}
+.canvas .header {
+	padding: 13px 10px 30px 30px;
+	
+}
+.canvas .header h1 {
+	font-family:titleFont;
+	font-weight: 300;
+	font-size: 70px;
+	line-height:34px;
+	color: #7C8951;
+	margin-left: -37px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+		text-shadow: 2px 3px 5px #174467;
+}
+.canvas ul#menu li {
+    display:block;
+    text-align: center;
+
+}
+ul#menu li a {
+    color: #174467;
+    font-family: 'BankGothic';
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 55px;
+    font-weight: bold;
+    margin-left: -45px;
+    text-shadow:1px 1px 1px #03121C;
+	-moz-text-shadow: 0 2px 8px black;
+	-webkit-text-shadow: 0 2px 8px black;
+}
+ul#menu li a:hover {
+	color: #fcf9c0;
+}
+.canvas ul#pinl li {
+    display:block;
+    text-align: left;
+}
+.canvas ul#pinr li {
+    display:block;
+    text-align: right;
+}
+#pin1 {
+    margin-left: -35px;
+    margin-top: -406px;
+}
+#pin2 {
+    margin-left: -35px;
+    margin-top: 528px;
+}
+#pin3 {
+    margin-right: 6px;
+    margin-top: -589px;
+}
+#pin4 {
+    margin-right: 6px;
+    margin-top: 530px;
+}
+
+
+
+
+/*//////////Help////////////*/
+.canvas ul#menuRule li {
+    display:block;
+    text-align: center;
+
+}
+ul#menuRule li p {
+    color: #F4EFAE;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: -45px;
+    text-shadow:1px 1px 1px #03121C;
+	-moz-text-shadow: 0 2px 8px black;
+	-webkit-text-shadow: 0 2px 8px black;
+}
+ul#menuBacks li a {
+    color: #174467;
+    font-family: 'BankGothic';
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 55px;
+    font-weight: bold;
+    margin-left: -45px;
+    margin-top: 100px;
+    text-shadow:1px 1px 1px #03121C;
+	-moz-text-shadow: 0 2px 8px black;
+	-webkit-text-shadow: 0 2px 8px black;
+}
+ul#menuBacks li a:hover {
+	color: #fcf9c0;
+}
+
+
+.footer ul#pinlH li {
+    display:block;
+    text-align: left;
+}
+.footer ul#pinrH li {
+    display:block;
+    text-align: right;
+}
+#pinH1 {
+    margin-left: -35px;
+    margin-top: -438px;
+}
+#pinH2 {
+    margin-left: -35px;
+    margin-top: 528px;
+}
+#pinH3 {
+    margin-right: 6px;
+    margin-top: -589px;
+}
+#pinH4 {
+    margin-right: 6px;
+    margin-top: 530px;
+}
+/*Content of game--------------*/
+.contentGame{
+	/*background-color: green;*/
+	width: 763px;
+	height: 575px;
+	margin-left: 8px;
+	margin-top: -35px;
+}
+
+#rock{
+	margin-left: 0px;
+}
+.w3-btn1 {
+	border:none;
+	outline:0;
+	width: 136px;
+	height: 150px;
+	padding:30px 16px;
+	text-decoration:none !important;
+	color:#15505B;
+	background-color:#fcf9c0;
+	text-align:center;
+	transition:.2s ease-out;
+	cursor:pointer;
+	border-radius:8px;
+	border:3px solid #d4dedf;
+	font-size:20px;
+	margin-left:100px;
+	margin-top:10px;	
+}
+.w3-btn1:hover {
+	opacity:0.7 !important;
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.6);
+	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.6);
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.6);
+	transform: perspective( 900px ) rotateY( 20deg );
+	transform: perspective( 900px ) rotateX( 20deg );
+	-webkit-transform: perspective( 900px ) rotateY( 20deg );
+	-webkit-transform: perspective( 900px ) rotateX( 20deg );
+
+}
+
+.w3-btn1:active {
+	opacity:0.9 !important;
+	width: 136px;
+	height: 130px;
+	outline:10;
+}
+.w3-box {
+	border:none;
+	outline:0;
+	width: 180px;
+	height: 190px;
+	padding:30px 16px;
+	text-decoration:none !important;
+	color:#15505B;
+	background-color:#C7FF94;
+	text-align:center;
+	transition:.2s ease-out;
+	border-radius:8px;
+	border:1px solid #A5A869;
+	font-size:20px;
+	margin-left:-30px;
+	margin-top:-18px;
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.6);
+	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.6);
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.6);	
+}
+#Result{
+	color:red;
+	font-size:35px;
+	text-align:center;
+	margin-top:10px;
+	font-family: 'appleberry';
+	padding-top: 10px;
+	padding-bottom: 0px;	
+	box-shadow: inset px 8px 6px rgba(0,0,0,0.6);
+	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.6);
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.6);
+}
+#pinH11 {
+    margin-left: -35px;
+    margin-top: -578px;
+}
+#pinH22 {
+    margin-left: -35px;
+    margin-top: 528px;
+}
+#pinH33 {
+    margin-right: 6px;
+    margin-top: -589px;
+}
+#pinH44 {
+    margin-right: 6px;
+    margin-top: 530px;
+}
+#pinA1 {
+    margin-left: -35px;
+    margin-top: -386px;
+}
+#pinA2 {
+    margin-left: -35px;
+    margin-top: 528px;
+}
+#pinA3 {
+    margin-right: 6px;
+    margin-top: -589px;
+}
+#pinA4 {
+    margin-right: 6px;
+    margin-top: 530px;
+}

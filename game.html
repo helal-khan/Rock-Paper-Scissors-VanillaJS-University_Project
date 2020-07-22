@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rock Paper Scissors</title>
+		<link rel="icon" href="favicon.PNG" type="image/x-icon"/>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<script src="script.js"></script>
+	</head>
+	<body onload="gMusic.play();" style="background-color:#fcf9c0;">
+	<div id="wrapper">
+
+		<!--LOGIN FORM-->
+		<div class="canvas">
+
+			<!--HEADER-->
+			<div class="header">
+				
+			</div>
+			
+			<!--CONTENT-->
+			<div class="contentGame">
+				<div class="Option">
+					<img id="rock" src="rock.PNG" class="w3-btn1" onmouseover="rpsMove.play();" onmousedown="rpsClick.play();" onClick="Fun('rock')">
+					
+					<img id="paper" src="paper.PNG" class="w3-btn1" onmouseover="rpsMove.play();" onmousedown="rpsClick.play();" onClick="Fun('paper')">
+					
+					<img id="scissors" src="scissors.PNG" class="w3-btn1" onmouseover="rpsMove.play();" onmousedown="rpsClick.play();" onClick="Fun('scissors')">
+				</div>
+				<div class="khela" style="font-size:30px;font-family: 'FIFA Welcome';color: #7A7A08;">
+					<p id="me" style="text-align:left;margin-left:45px;margin-top:10px;">Computer-Choice</p>
+					<p style="text-align:right;margin-right:45px;margin-top:-50px;">Human  &nbsp;-&nbsp;&nbsp;Choice</p>
+
+				</div>
+				<div class="OptionChange">
+					<img id="ComputerBox" src="Info.PNG" class="w3-box" style="margin-left:10px;">
+					<img id="HumanBox" src="info.PNG" class="w3-box" style="margin-left:260px;">
+
+				</div>
+				<div  style="font-size:30px;font-family: 'Gretoon';color: #F9F3AF;">
+					<p id="com" style="text-align:left;margin-left:78px;margin-top:10px;">Score: 0</p>
+					<p id="hu" style="text-align:left;margin-left:520px;margin-top:-50px;">Score: 0</p>
+				</div>
+				<div style="color: red;margin-bottom:-15px;">
+					<p id="Result" style="text-align:center;">Result Here:</p>
+				</div>
+					
+
+
+				<ul id="menu">
+					<li><a href="index.html" onmouseover="menuMove.play();" onmousedown="menuClick.play();">Back</a></li>
+
+				</ul>
+			</div>
+			<div class="footer">
+				
+				<ul id="pinlH">
+					<li id="pinH11"><img src="pin.PNG"></li>
+					<li id="pinH22"><img src="pin.PNG"></li>
+				</ul>
+				<ul id="pinrH">
+					<li id="pinH33"><img src="pin.PNG"></li>
+					<li id="pinH44"><img src="pin.PNG"></li>
+
+				</ul>
+
+
+			</div>
+
+
+		</div>
+		<div>
+			
+			
+		</div>
+		
+	</div>
+
+	</body>
+</html>

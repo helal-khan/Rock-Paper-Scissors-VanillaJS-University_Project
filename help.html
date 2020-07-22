@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Help</title>
+		<link rel="icon" href="favicon.PNG" type="image/x-icon"/>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<script src="script.js"></script>
+	</head>
+	<body onload="bgMusic.play();" style="background-color:#fcf9c0;">
+	<div id="wrapper">
+
+		<!--LOGIN FORM-->
+		<div class="canvas">
+
+			<!--HEADER-->
+			<div class="header">
+				<h1>Rock&nbsp;Paper&nbsp;Scissors</h1>
+			</div>
+			
+			<!--CONTENT-->
+			<div class="content">
+
+				<ul id="menuRule">
+					<li><p>Scissors + Scissors = Same Input</p></li>
+					<li><p>Rock + Paper = paper wins</p></li>
+					<li><p>Rock + Scissors = rock wins</p></li>
+					<li><p>Paper + Scissors = scissors wins</p></li>
+				</ul>
+
+				<ul id="menuBacks">
+					<li><a id="back" href="index.html" onmouseover="menuMove.play();" onmousedown="menuClick.play();">Back</a></li>
+				</ul>
+			</div>
+
+			<div class="footer">
+				
+				<ul id="pinlH">
+					<li id="pinH1"><img src="pin.PNG"></li>
+					<li id="pinH2"><img src="pin.PNG"></li>
+				</ul>
+				<ul id="pinrH">
+					<li id="pinH3"><img src="pin.PNG"></li>
+					<li id="pinH4"><img src="pin.PNG"></li>
+				</ul>
+			</div>
+
+
+		</div>
+
+	</div>
+
+	</body>
+</html>
